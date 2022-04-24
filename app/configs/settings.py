@@ -1,0 +1,12 @@
+from os import environ as env
+
+TIMEZONE = env['TIMEZONE']
+MONGODB_URI = env['MONGODB_URI']
+DB_NAME = env['DB_NAME']
+JWT_SECRET = env['JWT_SECRET']
+
+OVERRIDE_S3_ENDPOINT = env['OVERRIDE_S3_ENDPOINT']
+BUCKET = env['BUCKET']
+ACCESS_KEY = env['ACCESS_KEY']
+SECRET_KEY = env['SECRET_KEY']
+REGION = env['REGION']
