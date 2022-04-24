@@ -1,5 +1,5 @@
 """
-Constant varibles for Stack Cart by Rahul Sarkar
+DB Collection varibles for Stack Cart by Rahul Sarkar
 """
 
 ROLES_COLLECTION = 'roles'
@@ -15,3 +15,9 @@ MARCHENT_COLLECTION = 'marchants'
 REVIEW_COLLECTION = 'review'
 WISHLIST_COLLECTION = 'wishlist'
 
+"""
+Routes varibles for Stack Cart by Rahul Sarkar
+"""
+
+ADD_ROLES = '/api/v1/add_role'
+GET_ROLES = '/api/v1/get_all_roles'
